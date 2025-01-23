@@ -1,0 +1,18 @@
+{
+  "name": "my-favorite-food",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/main.scss:css/main.css",
+    "start": "browser-sync start --server --files 'css/main.css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "sass": "^1.83.4"
+  }
+}

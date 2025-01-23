@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My favorite food</title>
+</head>
+<body>
+ <header>
+    <h1>My Favorite Food</h1>
+ </header>
+
+ <main>
+  <section class="middle_container">
+    <div class="middle_container_img">
+        <img src="./assets/img/tiramisu.jpg" alt="Tiramisu">
+    </div>
+    <div class="ingredients_container">
+     <div class="ingredients_container">
+        <h2>Ingredients</h2>
+        <ul class="ingredients_list">
+          <li>
+            <label>
+              <input type="checkbox" id="ingredient1" value="500g Mascarpone">
+              500 g of Galbani Mascarpone
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="ingredient2" value="5 eggs">
+              5 eggs
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="ingredient3" value="5 tablespoons sugar">
+              5 tablespoons of powdered sugar
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="ingredient4" value="40 sponge fingers">
+              40 sponge fingers
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="ingredient5" value="2 cups coffee">
+              2 cups of strong coffee without sugar
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="ingredient6" value="2 tbsp Marsala">
+              2 tablespoons sweet Marsala wine
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="ingredient7" value="Cocoa powder">
+              Unsweetened cocoa powder
+            </label>
+          </li>
+        </ul>
+    </div>
+    <div class="time">
+        <img src="./assets/img/house_clock.png" alt="Clock icon indicating preparation time" class="clock_photo">
+        <p>20 min</p>
+    </div>
+
+    <div class="wrapper">
+        <div class="time">
+            <span class="hour">00</span>
+            <span class="colon">:</span>
+            <span class="minute">00</span>
+            <span class="colon">:</span>
+            <span class="second">00</span>
+            <span class="colon ms-colon">:</span>
+            <span class="millisecond">00</span>
+        </div>
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+ </section>
+ </main>
+
+<script src="timer.js"></script>   
+</body>
+</html>
