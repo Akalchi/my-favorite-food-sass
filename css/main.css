@@ -1,5 +1,72 @@
-header {
+body {
+  font-family: roboto, sans-serif;
+}
+body header {
+  background-color: #BC6D57;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
+
+main .middle_container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .middle_container .middle_container_img {
+  flex: 1;
+  display: flex;
+  width: 50%;
+  border-radius: 20px;
+}
+main .middle_container .middle_container_img img {
+  object-fit: cover;
+  padding-left: 20px;
+  max-width: 100%;
+  height: auto;
+}
+main .ingredients_container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  font-size: large;
+}
+main .ingredients_container .ingredients_list {
+  list-style: none;
+}
+main .ingredients_container .time_photo img {
+  width: 70px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+main .ingredients_container .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   background-color: #FAE3C4;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+main .preparation {
+  background-color: #BC6D57;
+  color: white;
+  margin: auto;
+  border-radius: 20px;
+}
+main .preparation .preparation_title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+main footer {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
